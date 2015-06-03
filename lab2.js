@@ -101,7 +101,7 @@ var klingon = new SentientBeing(); // TODO: fix me
 var romulan = new SentientBeing(); // TODO: fix me
 var human = new SentientBeing(); // TODO: fix me
 
-assert((new Human()).sayHello(new Klingon()) === "nuqneH",
+assert(human.sayHello(klingon) === "nuqneH",
   "the klingon should hear nuqneH");
 // TODO: write five more assertions, to complete all the possible
 // greetings between the three types of sentient beings you created above.
